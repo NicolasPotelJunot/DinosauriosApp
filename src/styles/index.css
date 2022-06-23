@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: 'Open Sans', "Arial", "Helvetica", sans-serif;
+    font-weight: 400;
+}
+
+.main-quiensoy_bg{
+    background-image: url(/assets/img/backgrounds/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-shadow{
+    text-shadow: .10rem .10rem .10rem rgba(0, 0, 0, .75);
+}
+
+.background-white-translucent{
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.font-style-bold{
+    font-weight: 700;
+}
