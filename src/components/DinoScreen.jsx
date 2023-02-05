@@ -1,6 +1,9 @@
 import React, { useMemo } from "react";
 import { useParams, Navigate, useNavigate } from "react-router-dom";
 import { getDinoById } from "../selectors/getDinoById";
+import { CardCaracterist } from "./ui/dinoScreen/CardCaracterist";
+import { CardTaxonomy } from "./ui/dinoScreen/CardTaxonomy";
+import { Title } from "./ui/dinoScreen/title";
 
 export const DinoScreen = () => {
   const { dinoId } = useParams();
@@ -13,7 +16,15 @@ export const DinoScreen = () => {
     return <Navigate to="/" />;
   }
 
-  const { id, namedino, tipo, era, etimologia, familia, info } = dino;
+  const {
+    id,
+    namedino,
+    info,
+    descubrimiento,
+    paleobiologia,
+    paleoecologia,
+    taxonomia,
+  } = dino;
 
   const handleReturn = () => {
     navigate(-1);
@@ -22,7 +33,7 @@ export const DinoScreen = () => {
   const dinoImage = `/assets/img/${id}.jpg`;
 
   return (
-    <section className="h-screen overflow-y-auto py-20 px-32 animate__animated animate__fadeIn">
+    <section className="h-screen overflow-y-auto py-20 px-52 animate__animated animate__fadeIn">
       <button
         onClick={handleReturn}
         className="bg-blue-500 hover:bg-blue-700 px-3 py-2 shadow-inner shadow-sky-400 text-white rounded-xl transition fixed top-8 right-16"
@@ -37,35 +48,50 @@ export const DinoScreen = () => {
       <img
         src={dinoImage}
         alt={id}
-        className="h-72 mx-auto mt-10 cursor-zoom-in hover:relative active:scale-150"
+        className="h-72 mx-auto mt-10 mb-5 cursor-zoom-in hover:relative active:scale-150"
       />
 
-      <article className="grid">
-        <div>
-          <p className="inline font-style-bold">Dieta: </p>
-          <p className="inline">{tipo}</p>
-        </div>
+      <div className="grid grid-cols-2 gap-4 w-1/2 m-auto">
+        <CardCaracterist dino={dino} />
+        <CardTaxonomy taxonomia={taxonomia} />
+      </div>
 
-        <div>
-          <p className="inline font-style-bold">Familia: </p>
-          <p className="inline">{familia}</p>
+      <section className="grid">
+        <div className="mb-5">
+          <Title text="Descripción" />
+          <p className="inline">
+            {info.map((desc, index) => (
+              <p key={index} className="my-2">
+                {desc.p}
+              </p>
+            ))}
+          </p>
         </div>
-
-        <div>
-          <p className="inline font-style-bold">Era: </p>
-          <p className="inline">{era}</p>
+        <div className="mb-5">
+          <Title text="Descubrimiento" />
+          {descubrimiento.map((desc, index) => (
+            <p key={index} className="my-2">
+              {desc.p}
+            </p>
+          ))}
         </div>
-
-        <div>
-          <p className="inline font-bold">EtimologÍa: </p>
-          <p className="inline">{etimologia}</p>
+        <div className="mb-5">
+          <Title text="Paleobiología" />
+          {paleobiologia.map((desc, index) => (
+            <p key={index} className="my-2">
+              {desc.p}
+            </p>
+          ))}
         </div>
-
-        <div>
-          <p className="inline font-bold">Descripción: </p>
-          <p className="inline">{info}</p>
+        <div className="mb-5">
+          <Title text="Paleoecología" />
+          {paleoecologia.map((desc, index) => (
+            <p key={index} className="my-2">
+              {desc.p}
+            </p>
+          ))}
         </div>
-      </article>
+      </section>
     </section>
   );
 };
