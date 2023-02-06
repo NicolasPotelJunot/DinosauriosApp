@@ -4,6 +4,7 @@ import { getDinoById } from "../selectors/getDinoById";
 import { CardCaracterist } from "./ui/dinoScreen/CardCaracterist";
 import { CardTaxonomy } from "./ui/dinoScreen/CardTaxonomy";
 import { Title } from "./ui/dinoScreen/title";
+import { Footer } from "./ui/footer/Footer";
 
 export const DinoScreen = () => {
   const { dinoId } = useParams();
@@ -99,6 +100,8 @@ export const DinoScreen = () => {
           </div>
         )}
       </section>
+
+      <Footer />
     </section>
   );
 };
