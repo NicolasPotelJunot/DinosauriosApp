@@ -3,7 +3,7 @@ import { useParams, Navigate, useNavigate } from "react-router-dom";
 import { getDinoById } from "../selectors/getDinoById";
 import { CardCaracterist } from "./ui/dinoScreen/CardCaracterist";
 import { CardTaxonomy } from "./ui/dinoScreen/CardTaxonomy";
-import { Title } from "./ui/dinoScreen/title";
+import { Title } from "./ui/dinoScreen/Title";
 import { Footer } from "./ui/footer/Footer";
 
 export const DinoScreen = () => {
