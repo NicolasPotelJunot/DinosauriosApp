@@ -2,7 +2,7 @@ import React from "react";
 
 export const SectionSecond = () => {
   return (
-    <section className="pt-16 px-40 pb-20 w-3/4 mx-auto">
+    <section className="pt-16 px-6 xl:px-40 pb-20 w-3/4 mx-auto">
       <p className="text-lg mt-5">
         <p className="font-bold inline">Dinosaurios Argentinos</p> es un
         proyecto freelance, sin fines de lucro creado por mí, Nicolas Potel
