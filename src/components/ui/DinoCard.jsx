@@ -5,7 +5,7 @@ export const DinoCard = ({ id, namedino, tipo, era }) => {
   const dinoImage = `/assets/img/${id}.jpg`;
 
   return (
-    <article className="bg-white rounded-2xl transition-all duration-300 hover:shadow-gray-400 hover:shadow-lg hover:relative hover:-translate-y-2">
+    <article className="bg-white animate__animated animate__zoomIn rounded-2xl transition-all duration-300 hover:shadow-gray-400 hover:shadow-lg hover:relative hover:-translate-y-2">
       <Link
         to={`/dino/${id}`}
         className=" grid h-full justify-between py-3 md:py-10 px-4 transition-all duration-300 rounded-2xl hover:shadow-inner hover:shadow-zinc-300 "

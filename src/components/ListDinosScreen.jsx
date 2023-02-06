@@ -38,7 +38,7 @@ export const ListDinosScreen = () => {
     <main>
       <div className="bg-gray-100 h-screen overflow-y-scroll w-full animate__animated animate__fadeIn">
         <section className="p-3">
-          <h1 className="text-center font-style-bold text-slate-500 text-4xl text-bold mt-24 mb-7">
+          <h1 className="animate__animated animate__fadeIn text-center font-style-bold text-slate-500 text-4xl text-bold mt-24 mb-7">
             DINOSAURIOS ARGENTINOS
           </h1>
 
