@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export const NavButton = ({ to, value }) => {
+export const NavButton = ({ to, value, close }) => {
   return (
     <NavLink
       end
@@ -10,6 +10,7 @@ export const NavButton = ({ to, value }) => {
         (isActive ? " bg-gray-800 border-b-gray-700" : "")
       }
       to={to}
+      onClick={close}
     >
       {value}
     </NavLink>

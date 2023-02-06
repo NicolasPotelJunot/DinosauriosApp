@@ -4,7 +4,7 @@ import { SectionSecond } from './ui/quien soy/SectionSecond'
 
 export const QuienSoyScreen = () => {
   return (
-    <main className='h-screen overflow-y-scroll w-full'>
+    <main className='w-full'>
 
       <SectionFirst />
       <SectionSecond />
