@@ -35,7 +35,7 @@ export const ListDinosScreen = () => {
 
   return (
     <section className="bg-gray-100 p-3 h-screen overflow-y-scroll w-full animate__animated animate__fadeIn">
-      <h1 className="text-center font-style-bold text-slate-500 text-4xl text-bold my-7">
+      <h1 className="text-center font-style-bold text-slate-500 text-4xl text-bold mt-24 mb-7">
         DINOSAURIOS ARGENTINOS
       </h1>
 
@@ -49,9 +49,10 @@ export const ListDinosScreen = () => {
         />
       </form>
 
-      <div className="flex w-full justify-center my-8">
+      <div className="grid gap-3 grid-cols-3 justify-center justify-items-center lg:flex w-full  my-8">
         <p className="mr-4 text-2xl my-auto ">Filtros</p>
-
+        <div className="block lg:hidden"></div>
+        <div className="block lg:hidden"></div>
         <button
           className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
           onClick={() => setdataDino(dinosaurios)}
@@ -59,7 +60,7 @@ export const ListDinosScreen = () => {
           Todos
         </button>
 
-        <div className="border border-slate-200 border-l-2 mr-4 ml-2"></div>
+        <div className="hidden lg:block border border-slate-200 border-l-2 mr-4 ml-2"></div>
 
         <button
           className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
@@ -75,7 +76,7 @@ export const ListDinosScreen = () => {
           Herbívoros
         </button>
 
-        <div className="border border-slate-200 border-l-2 mr-4 ml-2"></div>
+        <div className="hidden lg:block border border-slate-200 border-l-2 mr-4 ml-2"></div>
 
         <button
           className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
