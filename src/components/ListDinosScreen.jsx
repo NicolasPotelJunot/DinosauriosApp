@@ -50,43 +50,49 @@ export const ListDinosScreen = () => {
       </form>
 
       <div className="flex w-full justify-center my-8">
-        <button
-          className="bg-blue-400 text-white p-3 rounded-xl mr-2"
-          onClick={() => setdataDino(dinosaurios)}
-        >
-          All
-        </button>
+        <p className="mr-4 text-2xl my-auto ">Filtros</p>
 
         <button
-          className="bg-blue-400 text-white p-3 rounded-xl mr-2"
+          className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
+          onClick={() => setdataDino(dinosaurios)}
+        >
+          Todos
+        </button>
+
+        <div className="border border-slate-200 border-l-2 mr-4 ml-2"></div>
+
+        <button
+          className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
           onClick={() => filterDinoTipo("Carnívoro")}
         >
           Carnívoros
         </button>
 
         <button
-          className="bg-blue-400 text-white p-3 rounded-xl mr-2"
+          className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
           onClick={() => filterDinoTipo("Herbívoro")}
         >
           Herbívoros
         </button>
 
+        <div className="border border-slate-200 border-l-2 mr-4 ml-2"></div>
+
         <button
-          className="bg-blue-400 text-white p-3 rounded-xl mr-2"
+          className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
           onClick={() => filterDinoEra("Triásico")}
         >
           Triásico
         </button>
 
         <button
-          className="bg-blue-400 text-white p-3 rounded-xl mr-2"
+          className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
           onClick={() => filterDinoEra("Jurásico")}
         >
           Jurásico
         </button>
 
         <button
-          className="bg-blue-400 text-white p-3 rounded-xl mr-2"
+          className="bg-blue-400 hover:bg-blue-500 w-28 text-white p-3 rounded-xl mr-2"
           onClick={() => filterDinoEra("Cretácico")}
         >
           Cretácico
