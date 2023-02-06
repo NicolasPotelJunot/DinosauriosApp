@@ -38,13 +38,13 @@ export const NavBar = () => {
 
           <NavButton
             to={"/quiensoy"}
-            value={"¿Quien soy?"}
+            value={"Home"}
             close={handleclose}
           />
 
           <NavButton
             to={"/listdinos"}
-            value={"Dinosaurios Argentinos"}
+            value={"Listado de dinosaurios"}
             close={handleclose}
           />
         </div>

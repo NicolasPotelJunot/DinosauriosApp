@@ -6,7 +6,7 @@ export const NavButton = ({ to, value, close }) => {
     <NavLink
       end
       className={({ isActive }) =>
-        "py-6 px-3 text-sm text-center hover:bg-gray-800 border-2 border-transparent hover:border-b-gray-700" +
+        "py-6 px-3 text-sm text-center flex justify-center items-center hover:bg-gray-800 border-2 border-transparent hover:border-b-gray-700" +
         (isActive ? " bg-gray-800 border-b-gray-700" : "")
       }
       to={to}
