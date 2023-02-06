@@ -33,7 +33,7 @@ export const DinoScreen = () => {
   const dinoImage = `/assets/img/${id}.jpg`;
 
   return (
-    <section className="h-screen overflow-y-auto py-20 px-52 animate__animated animate__fadeIn">
+    <section className="h-screen overflow-y-auto py-20 px-6 lg:px-52 animate__animated animate__fadeIn">
       {/* <button
         onClick={handleReturn}
         className="bg-blue-500 hover:bg-blue-700 px-3 py-2 shadow-inner shadow-sky-400 text-white rounded-xl transition fixed top-8 right-16"
@@ -42,16 +42,18 @@ export const DinoScreen = () => {
       </button> */}
 
       <div className="pb-5 border-b-2 border-slate-200">
-        <h1 className="text-5xl text-slate-600">{namedino}</h1>
+        <h1 className="text-3xl text-center lg:text-5xl text-slate-600">
+          {namedino}
+        </h1>
       </div>
 
       <img
         src={dinoImage}
         alt={id}
-        className="h-72 mx-auto mt-10 mb-5 cursor-zoom-in hover:relative active:scale-150"
+        className="lg:h-72 mx-auto mt-10 mb-5 cursor-zoom-in hover:relative active:scale-150"
       />
 
-      <div className="grid grid-cols-2 gap-4 w-1/2 m-auto">
+      <div className="grid grid-cols-2 gap-4 md:w-3/4 xl:w-1/2 m-auto my-10">
         <CardCaracterist dino={dino} />
         <CardTaxonomy taxonomia={taxonomia} />
       </div>
@@ -96,7 +98,6 @@ export const DinoScreen = () => {
             ))}
           </div>
         )}
-        
       </section>
     </section>
   );
