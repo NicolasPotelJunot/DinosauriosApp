@@ -993,41 +993,374 @@ export const dinosaurios = [
     paleobiologia: null,
     paleoecologia: null,
   },
-  // {
-  //   id: "Herbivoro-Zapalasaurus",
-  //   namedino: "Zapalasaurus bonapartei",
-  //   tipo: "Herbívoro",
-  //   era: "Cretácico inferior",
-  //   idEra: "Cretácico",
-  //   caracteristicas: {
-  //     longitud: "25 metros",
-  //     altura: "6 metros",
-  //     peso: "12 toneladas",
-  //     autor: "Salgado, Carvalho y Garrido",
-  //   },
-  //   taxonomia: {
-  //     filo: "Chordata",
-  //     clase: "Sauropsida",
-  //     orden: "Saurischia",
-  //     suborden: "Sauropodomorpha",
-  //     familia: "Rebbachisauridae",
-  //     genero: "Zapalasaurus",
-  //     especies: "Z. bonapartei",
-  //   },
-  //   info: [
-  //     {
-  //       p: "Zapalasaurus (“lagarto de Zapala”) es un género representado por una única especie de dinosaurio saurópodo diplodocoide, que vivió a mediados del período Cretácico, hace aproximadamente 120 millones de años, en el Aptiense, en lo que es hoy Sudamérica.",
-  //     },
-  //     {
-  //       p: "El zapalasaurio es un saurópodo de gran tamaño, alcanzaba los 25 metros de largo, 6 de alto y un peso de 12 toneladas. Tenía un cuello largo con vértebras con espinas bajas a diferencia del limaysaurio. El zapalasaurio se distingue por la escasa altura de las espinas neurales cervicales, y por la condición anfiplática de sus vértebras caudales anteriores. Exhibe una serie de caracteres que son interpretados como autapomórficos: arcos neurales cervicales con una lámina uniendo la prezigapófisis y el sector zigapofisial de la lámina postzigodiapofisial; arco neurales cervicales con la lámina postzigodiapofisial reducida en su sector diapofisial; aros neurales cervicales con la lámina espinoprezigapofisial pobremente desarrollada, que no alcanza el extremo de la espina neural; vértebras caudales medias y posteriores con la espina neural anteroposteriormente alargada, cuyo extremo anterior se ubica a un nivel más alto que el extremo posterior; vértebras caudales duplican su largo en las 20 primeras vértebras.",
-  //     },
-  //   ],
-  //   descubrimiento: [
-  //     {
-  //       p: "Zapalasaurus se conoce por un ejemplar recolectado en la formación La Amarga, noroeste de Patagonia, Provincia del Neuquén, Argentina a 80 kilómetros al norte de la ciudad de Zapala. El holotipo provendría de depósitos fangosos de llanura aluvial ubicados en los tramos superiores del Miembro Piedra Parada de dicha formación, constituyendo el primer registro fósil para la citada unidad.1​ Hasta la fecha, el registro de saurópodos en la parte alta del Cretácico Inferior de Patagonia consistía en un único grupo de diplodocoides, los rebaquisáuridos, representados por dos géneros estrechamente relacionados, Limaysaurus y Rayososaurus. El registro de Agustinia, un posible diplodocoide y Zapalasaurus hace suponer que la diversidad de diplodocoides basales en la parten alta del Cretácico Inferior de Sudamérica es mayor de lo que se pensaba. Según parece, en el Cretácico Inferior de Sudamérica los diplodocoides fueron al menos tan abundantes y diversos como los titanosauriformes. Esta situación contrasta notablemente con la que se da en el Cretácico Inferior de Norteamérica, donde no se registran saurópodos pertenecientes al primero de los grupos.",
-  //     },
-  //   ],
-  //   paleobiologia: null,
-  //   paleoecologia: null,
-  // },
+
+  {
+    id: "Carnivoro-Skorpiovenator",
+    namedino: "Skorpiovenator bustingorryi",
+    tipo: "Carnívoro",
+    era: "Cretácico Tardío",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "7 metros",
+      altura: "2,5 metros",
+      peso: "500 kg",
+      autor: "Canale",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Theropoda",
+      familia: "Abelisauridae",
+      genero: "Skorpiovenator",
+      especies: "S. bustingorryi",
+    },
+    info: [
+      {
+        p: "Skorpiovenator bustingorryi es la única especie conocida del género extinto Skorpiovenator (cazador de escorpiones) de dinosaurio terópodo abelisáurido que vivió a finales del período cretácico, hace aproximadamente 93 millones de años, durante el Cenomaniense, en lo que es hoy Sudamérica.",
+      },
+      {
+        p: "El nombre del género Skorpiovenator deriva de la palabra griega skorpios que significa (escorpión) y del vocablo latino venator que significa (cazador). El nombre de la especie Skorpiovenaor bustingorryi es en honor a Manuel Bustingorry, dueño del campo donde fue encontrado. Además, el nombre también hace referencia a la gran cantidad de escorpiones que había en el sitio de excavación",
+      },
+      {
+        p: "Se estima que el Skorpiovenator llegaba a medir unos 6 metros de longitud, con base en su esqueleto con una longitud preservada de 4,37 metros. En 2010 Gregory S. Paul calculó un tamaño mayor, con un largo de 7,5 m y un peso de 1,67 toneladas y posteriormente en 2011 Thomas Holtz, jr. le asignó un largo de 9 m. En 2016, se estimó un tamaño muy similar al de su descripción original, con 6,2 metros de largo. Ni sus brazos ni sus escápulas fueron hallados pero se supone que eran cortos como en especies afines, en contraste con sus poderosas patas dotadas de fuertes músculos en el muslo y tibias robustas sobre los cuales balanceaba su enorme cuerpo.",
+      },
+      {
+        p: "El cráneo de Skorpiovenator era corto, robusto y se hallaba cubierto de crestas, surcos, tubérculos y nódulos protuberantes, como los que se suelen observar en las cabezas de muchos terópodos abelisáuridos. Sus mandíbulas delgadas poseían varios dientes afilados con bordes aserrados. El Skorpiovenator puede no haber tenido una gran fuerza de mordida, como se ha sugerido para otros abelisáuridos. Este dinosaurio puede haber usado su cráneo alto como un mazo, llevando la cabeza hacia atrás y aventándola contra su presa de manera que sus dientes penetraran con la fuerza suficiente como para provocar daño a la presa.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "El holotipo (MMCH-PV 48) se encuentra en el Museo Municipal “Ernesto Bachmann”, de Villa El Chocón, Neuquén, Argentina. Es un esqueleto articulado, el cráneo está casi completo con las mandíbulas y la mayor parte de los huesos postraneales; falta solamente el brazo derecho y la última mitad de la cola. Desde la punta del hocico a la última vértebra encontrada mide 4,37 metros, gracias a lo cual los autores estimaron un largo total de 6 metros para el Skorpiovenator. El espécimen tipo fue descrito y nombrado por Canale, Scanferla, Agnolin y Novas en 2009, si bien el artículo de descripción fue prepublicado digitalmente en 2008.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: null,
+  },
+
+  {
+    id: "Herbivoro-Puertasaurus",
+    namedino: "Puertasaurus reuili",
+    tipo: "Herbívoro",
+    era: "Cretácico Tardío",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "38 metros",
+      altura: "16 metros",
+      peso: "100 toneladas",
+      autor: "Puerta",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Sauropodomorpha",
+      familia: "	Lognkosauria",
+      genero: "Puertasaurus",
+      especies: "Puertasaurus reuili",
+    },
+    info: [
+      {
+        p: "Puertasaurus (lagarto de Puerta) es un género representado por una única especie, Puertasaurus reuili. Este fue un dinosaurio saurópodo titanosauriano que vivió a finales del período Cretácico, hace aproximadamente entre 70 y 68 millones de años, en el Maastrichtiense, en lo que es hoy Sudamérica. Es uno de los dinosaurios más grandes conocidos y extiende la presencia de los saurópodos gigantes hasta finales del mesozoico. Su tamaño es tema de controversia, los huesos fósiles son enormes, pero son muy pobres tanto en la cantidad hallada como en la calidad encontrada. Por los tanto cualquier estimado en esta especie estará sujeto a especulación e interpretaciones muy aproximadas, hasta el hallazgo de ejemplares mucho más completos.",
+      },
+      {
+        p: "El género fue nombrado en honor al técnico del Museo Egidio Feruglio, Pablo Puerta, quien hizo el descubrimiento, y la especie reuili en el de Santiago Reuil, quien reconstruyó una vértebra a partir de unos 60 fragmentos. En esos trabajos de laboratorio colaboró la Agencia Nacional para la Promoción Científica y Técnica argentina. Los restos fueron encontrados en la provincia de Santa Cruz, Argentina.",
+      },
+      {
+        p: "Son muy pocos sus restos conocidos de Puertasaurus. Solo se hallaron 4 vértebras, la cervical 9, la dorsal 2 y dos medio caudales, y en un estado bastante fragmentado. La vértebra cervical es la primera reportada de un titanosaurio gigante, trayendo importante información sobre la estructura del cuello de los neosaurópodos. Lo inflado de su espina neural sugiere la presencia de un poderoso ligamento en el cuello y músculos cervicales; además la presencia de profundas fosas pre y post espinales bien desarrolladas, sugieren fuertes ligamentos interespinosos. La gigantesca vértebra dorsal, mide 168 cm de ancho y 106 de alto. Las apófisis transversales de la vértebra, estas crestas o protuberancias laterales, son las más anchas conocidas en un saurópodo, siendo inclusive mayor que en su pariente Argentinosaurus. Ésta estructura se encarga de dar soporte a las costillas y a todo lo que ella conlleva (los músculos y otros órganos masivos). Su desarrollo tan elevado en esta especie sugiere un tórax muy amplio, tal vez aún más voluminoso que en Argentinosaurus, de 5 metros de ancho. El descubrimiento de Puertasaurus reuili demuestra que los titanosaurios gigantescos sobrevivieron casi hasta la extinción masiva de los dinosaurios, hace 66 millones de años, que marcó el fin de la Era Mesozoica, dijo el paleontólogo Fernando Novas, los saurópodos contemporáneos de otras regiones del planeta, como Madagascar e India, eran mucho más pequeños.",
+      },
+      {
+        p: "El diagnóstico de Puertasaurus se basa en las siguientes características: tamaño gigante, la espina neural cervical considerablemente inflada, siendo transversalmente más ancho que el centro vertebral y teniendo fuertes cantos en dorso-lateral, vértebras caudales con una lámina espinoprezigapofisial fuerte transversalmente y profunda dorsoventralmente, la porción craneal de las vértebras dorsales extremadamente corta, más que en otros saurópodos. Estos caracteres están en otras especies titanosaurias más pequeñas, pero se ven exagerados en el Puertasaurus.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "La descripción técnico-científica de Puertasaurus, fue escrita por Fernando Novas, Leonardo Salgado y Federico Agnoli en el boletín del Museo Argentino de Ciencias Naturales Bernardino Rivadavia en 2005. El descubrimiento de cuatro vértebras del cuello y el lomo del Puertasaurus, hecho en enero de 2001 en la estancia Santa Teresita, en la zona del Lago Viedma, en la Patagonia, Argentina, fue financiado por la fundación internacional National Geographic Society. Los restos, por convenio de exploración, pertenecen al Museo Padre Molina de la ciudad de Río Gallegos.",
+      },
+      {
+        p: "El holotipo, MPM 10002, consta de 4 vértebras desarticuladas, la mayor parte de la novena cervical, la dorsal 2 completa y el centro de 2 caudales, aproximadamente el 3% del esqueleto. De este material, solo la vértebra dorsal estaba completa. La mayor parte de las vértebras cervicales se conservó, pero solo se conocen los centros de las vértebras caudales. Puertasaurus reuilli fue descrito por los paleontólogos Fernando Novas, Leonardo Salgado, Jorge Calvo y Federico Agnolin en 2005, y lleva el nombre de los cazadores de fósiles Pablo Puerta y Santiago Reuil, quienes descubrieron el holotipo en enero de 2001 y lo prepararon posteriormente. Su descubrimiento fue anunciado en julio de 2006, en el Museo Argentino de Ciencias Naturales en Buenos Aires. Puertasaurus fue el primer titanosaurio gigante descubierto que conservó las vértebras cervicales.",
+      },
+      {
+        p: "El holotipo y único espécimen conocido de Puertasaurus reuili fue descubierto en la provincia de Santa Cruz en el sur de la Patagonia, Argentina. Los restos fueron recuperados en el Cerro Los Hornos, cerca del río La Leona y fueron reportados de la Formación Cerro Fortaleza, que, en ese momento, se conocía como la Formación Pari Aike. El holotipo fue descubierto en una lente de arenisca gris que también conservaba los restos carbonizados de cícadas y coníferas. En la misma formación se encontró al euiguanodóntido Talenkauen y al celurosaurio derivado Orkoraptor.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: [
+      {
+        p: "Puertasaurus es del Período Cretácico Tardío de la Patagonia austral. Sin embargo, de qué formación se derivó y su edad geológica han sido discutidos, debido a la nomenclatura estratigráfica inconsistente de la Patagonia austral. Originalmente se informó que era de la Formación Pari Aike y de edad maastrichtiana. La Formación Pari Aike fue posteriormente reasignada a la Formación Mata Amarilla y reinterpretada como si fuera del Cenomaniano al Santoniano. Estudios más recientes han indicado que estos depósitos pertenecen a la Formación Cerro Fortaleza, que se remonta al Campaniano o Maastrichtiano. Las rocas de la formación en su mayoría consisten en camas de piedra arenisca, junto con capas de mudstone y horizontes ligníticos.",
+      },
+      {
+        p: "La Formación Cerro Fortaleza representa un ecosistema terrestre. La presencia de paleosoles y lignito sugiere un ambiente húmedo con altas cantidades de lluvia y un nivel freático alto. Las superficies de avulsión, los histosoles , las raíces fósiles carbonáceas y la madera silicificada proporcionan evidencia de un paisaje boscoso de baja altitud con un drenaje deficiente. Otros dinosaurios de la misma localidad incluyen el ornitópodo Talenkauen, los terópodos Orkoraptor y Austrocheirus , y el saurópodo Dreadnoughtus. La fauna no dinosaurio conocida de la formación incluye cocodrilos, tortugas, peces óseos y tiburones lamniformes.",
+      },
+    ],
+  },
+
+  {
+    id: "Herbivoro-Ninjatitan",
+    namedino: "Ninjatitan zapatai",
+    tipo: "Herbívoro",
+    era: "Cretácico Inferior",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "20 metros",
+      altura: "3,5 metro",
+      peso: "???",
+      autor: "Gallina, Canale, y Carballido",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Sauropodomorpha",
+      familia: "Titanosauria",
+      genero: "Ninjatitan",
+      especies: "N. zapatai",
+    },
+    info: [
+      {
+        p: "Ninjatitan zapatai es especie conocida del género extinto Ninjatitan de dinosaurio saurópodo titanosauriano que vivió a principios del periodo Cretácico, hace unos 140 millones de años durante el Valanginiense en lo que es hoy Sudamérica. Tenía un largo de 20 metros de longitud, encontrada en la formación Bajada Colorada de la Patagonia Norte, Provincia de Neuquén, Argentina, de la cual se conservan restos postcraneales. Es el titanosaurio más antiguo conocido hasta la fecha y la especie tipo N. zapatai fue nombrada y descrita en 2021. Su nombre genérico proviene del apodo del paleontólogo argentino Sebastián Apesteguia y el nombre específico proviene del técnico Rogelio Zapata.Se conoce por restos postcraneales descubiertos en 2014.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "Los análisis cladísticos indican que Ninjatitan podría considerarse el saurópodo titanosauriano más antiguo conocido. La combinación de características tales como la presencia de centros caudales anteriores procoelicas, el arco neural neumatizado de las vértebras caudales anteriores y el borde posterodorsal del acromion escapular cerca del nivel glenoideo apoya sus afinidades con Titanosauria. La presencia de un saurópodo titanosauriano basal en el Cretácico más bajo de la Patagonia apoya la hipótesis de que el grupo se estableció en el hemisferio sur y refuerza la idea de un origen gondwanico para Titanosauria. La fauna de saurópodos de la Bajada Colorada representa una de las asociaciones más diversas y singulares del Cretácico inferior registrado a nivel mundial.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: null,
+  },
+
+  {
+    id: "Herbivoro-Neuquensaurus",
+    namedino: "Neuquensaurus australis",
+    tipo: "Herbívoro",
+    era: "Cretácico Tardío",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "14 metros",
+      altura: "7 metros",
+      peso: "8 toneladas",
+      autor: "Powell",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Sauropodomorpha",
+      familia: "Saltasauridae",
+      genero: "Neuquensaurus",
+      especies: "Neuquensaurus australis - Neuquensaurus robustus",
+    },
+    info: [
+      {
+        p: "Neuquensaurus (lagarto de Neuquén) es un género representado por una, posiblemente dos, especies de dinosaurios saurópodos titanosaurianos, que vivieron a finales del período Cretácico, hace aproximadamente 80 millones de años, en el Campaniense, en lo que hoy es Sudamérica.",
+      },
+      {
+        p: "Neuquensaurus llegó a medir entre 14 y 15 metros de largo. Se cree que este dinosaurio poseía osteodermos con forma de armadura. Un saurópodo relativamente pequeño, con un fémur de solo 0,75 metros de largo. Es uno de los saurópodos patagónicos más conocidos. Además de los fósiles originales descritos por Lydekker en 1893, está representado por fósiles recolectados a principios del siglo XX y material más reciente, incluido un espécimen bien conservado y parcialmente articulado descrito en 2005, con dos osteodermos asociados.",
+      },
+      {
+        p: "De Neuquensaurus se conoce un esqueleto casi completo. Entre los elementos conservados hay una escápula. La escápula se osifica conjuntamente con el coracoides, una característica que también se encuentra en la Opisthocoelicaudia. En aspecto general, la escápula se asemeja a Saltasaurus, Opisthocoelicaudia, Lirainosaurus y Alamosaurus . Los coracoides de las escápulas tienen una forma aproximadamente cuadrangular, y son similares a Saltasaurus y Lirainosaurus , pero no a Opisthocoelicaudia, Rapetosaurus o Isisaurus, todos los cuales tienen un coracoide redondeado. Muchos personajes distinguen a Neuquensaurus de otros titanosáuridos. Las características encontradas por Otero en 2010 son, la posesión de centros caudales posteriores que están aplanados dorsoventralmente y una tuberosidad lateral fibular fuertemente desarrollada.",
+      },
+      {
+        p: "En 2008 se realizó una reconstrucción muscular del miembro trasero de un Neuquensaurus. Esta concluyó que habría desarrollado mayores brazos de momento en los músculos iliotibiales e iliofibulares que en saurópodos no saltasaurinos, en relación con la extensión de los procesos pre- y posacetabulares del ilión. También habría desarrollado un gran femorotibial, debido al notable desarrollo mediolateral del fémur, y un gran iliofibular, debido al prominente trocánter lateral de la fíbula. Por último, se interpretaron atributos funcionales de saurópodos con huella ancha, en los cuales la acción de extensión-flexión es más importante respecto de la de los saurópodos con huellas angostas.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "En 1893, Richard Lydekker nombró Titanosaurus australis , basado en una serie de vértebras caudales y elementos de extremidades. Los restos habían sido encontrados por Santiago Roth y F. Romero, en la Provincia de Neuquén de Argentina en el río Neuquén que fueran por Lydekker asignado a un solo individuo. Seis vértebras caudales, con los números de inventario MLP Ly 1-6-V-28-1, fueron el holotipo de la especie. Probablemente los habían encontrado en una capa de la Formación Anacleto.",
+      },
+      {
+        p: "Algunos elementos que habían sido referidos a Titanosaurus australis fueron reasignados a Laplatasaurus araukanicus por Friedrich von Huene en 1929. El mismo año, von Huene nombró un Titanosaurus robustus y afirmó que difería de T. australis en el material de la extremidad. Von Huene describió todo el material delgado de las extremidades a T. australis, pero no identificó ninguna característica diferenciadora entre las vértebras. Al describir T. robustus, von Huene realmente no comparó otros géneros y especies con él. Del material sintipo asignado por von Huene a T. robustus José Fernando Bonaparte et al. en 1978 eligió cuatro lectotipos, especímenes MLP 26-250, MLP 26-252, MLP 26-254 y MLP 26-259, un fémur izquierdo, ambos cúbitos y un radio izquierdo.",
+      },
+      {
+        p: "En 1986, Jaime Eduardo Powell, concluyendo que Titanosaurus australis era menos similar que Laplatasaurus araukaicus a Titanosaurus indicus, nombrandolo un género separado, Neuquensaurus. Sin embargo, lo hizo en una disertación inédita que causó que Neuquensaurus australis y Neuquensaurus rubustus siguieran siendo inválidos, nomina ex disertación. En 1990, las dos especies fueron asignadas a Saltasaurus por John Stanton McIntosh , como Saltasaurus australis y Saltasaurus robustus afirmando que las características encontradas por Bonaparte no eran de suficiente importancia taxonómica para justificar una separación genérica.",
+      },
+      {
+        p: "En 1992 Powell nombró válidamente Neuquensaurus, con la especie tipo Titanosaurus australis, de la cual la combinatio nova es Neuquensaurus australis. También descubrió que Titanosaurus robustus era asignable al nuevo género, pero lo consideraba no diagnóstico y, por lo tanto, un nomen dubium.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: null,
+  },
+
+  {
+    id: "Carnivoro-Neuquenraptor",
+    namedino: "Neuquenraptor argentinus",
+    tipo: "Carnívoro",
+    era: "Cretácico Tardío",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "2,5 metros",
+      altura: "1,2 metros",
+      peso: "27 kg",
+      autor: "Novas y Pol",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Theropoda",
+      familia: "Dromaeosauridae",
+      genero: "Neuquenraptorv",
+      especies: "N. argentinus",
+    },
+    info: [
+      {
+        p: "Neuquenraptor argentinus es la única especie conocida del género extinto Neuquenraptor (ladrón de Neuquén) de dinosaurio terópodo dromeosáurido que vivió a finales del período Cretácico, hace aproximadamente 90 millones de años, entre el Turoniense y el Coniaciense, en lo que hoy es Sudamérica.",
+      },
+      {
+        p: "Se estima que Neuquenraptor ha medido entre 1,8 a 3,5 metros de largo y tiene un peso de 75 kilogramos. Era más grande que su pariente cercano Buitreraptor, un género con el que compartía algunas similitudes osteológicas y físicas.",
+      },
+      {
+        p: "Fue un depredador activo que poseía brazos y piernas largas, un cráneo alargado y curvo, garras y dientes afilados, sumado a un cuerpo delgado y grácil. Este dinosaurio era similar, en muchos aspectos morfológicos, al Troodon y al Velociraptor. Poco se sabe sobre el aspecto de Neuquenraptor argentinus, pero las garras características en forma de media luna están presentes en el fósil. Neuquenraptor era aproximadamente del mismo tamaño que Velociraptor y probablemente también tenía plumas como este.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "Los restos conocidos, holotipo MCF-PVPH 77, fueron descubiertos en capas de la Formación Portezuelo que datan del Coniaciano. Se compone solo de un pie izquierdo, algunos fragmentos de vértebras cervicales, costillas, galones de cola y un radio. Llamado por el lugar de descubrimiento, La Provincia del Neuquén, Fue descrito en 2005 por Fernando Novas y Diego Pol. Conocido solo por un pie fósil, estaba estrechamente relacionado con Buitreraptor. Los fósiles del Neuquenraptor fueron descubiertos en la Patagonia de Argentina, en la Formación Portezuelo del Subgrupo Río Neuquén, en la misma área en la que el Megaraptor fue encontrado, siendo descrito por Fernando Novas en 1997 poniendo otro nombre para su género y especie. Propuso el nombre de Araucanoraptor argentinus, afirmando que la especie, A. argentinus , era un troodóntido, pero no tenía la descripción por lo que se lo consideró inválido. En 2005, Novas y Pol hicieron otro análisis al espécimen y comprobaron que era un dromeosáurido, esta vez lo describieron y lo nombraron distinto, al género Neuquenraptor y a la especie Neuquenraptor argentinus. Se lo ha intentado sinonimizar con Unenlagia, pero este último, aunque de los mismos niveles, resulta ser más basal en algunos análisis publicados.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: [
+      {
+        p: "Neuquenraptor goza de una importancia especial debido a su procedencia de América del Sur. Hasta el descubrimiento de Neuquenraptor, todos los dromeosáuridos se habían encontrado en América del Norte, Europa o el norte de China /y Mongolia y los científicos creían que los dromeosáuridos solo habitaban Laurasia , es decir, el hemisferio norte. América del Sur, sin embargo, durante el Mesozoico se convirtió en parte de Gondwana. El hallazgo de Neuquenraptor proporciona alguna indicación posible del grado de aislamiento entre los hemisferios norte y sur.",
+      },
+      {
+        p: "El supercontinente Pangea comenzó a separarse en el Jurásico Temprano, lo que condujo a la separación alrededor de 160 millones de años de Laurasia en el norte y Gondwana en el sur. Gondwana en sí pronto se fragmentó en Gondwana del oeste, es decir, África y América del Sur y Gondwana del este, es decir, la Antártida y Australia más India y Madagascar. Gondwana del oeste se separó durante el Cretácico , ya que África y Sudamérica se separaron entre 132 y 90 millones de años. Entre aproximadamente 80 y 60 Ma, es decir, en el Cretácico tardío y el Paleoceno temprano, América del Norte y América del Sur quizás estaban conectadas, al menos episódicamente, por un puente terrestre, debido al movimiento hacia el este de la placa del Caribe entre las dos masas continentales.",
+      },
+    ],
+  },
+
+  {
+    id: "Carnivoro-Lucianovenator",
+    namedino: "Lucianovenator bonoi",
+    tipo: "Carnívoro",
+    era: "Triásico Tardío",
+    idEra: "Triásico",
+    caracteristicas: {
+      longitud: "???",
+      altura: "???",
+      peso: "???",
+      autor: "Juan Ricardo N. Martínez - 2014",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Theropoda",
+      suborden: "???",
+      familia: "Coelophysoidea",
+      genero: "Lucianovenator",
+      especies: "L. bonoi",
+    },
+    info: [
+      {
+        p: "Lucianovenator bonoi es la única especie conocida del género extinto Lucianovenator de dinosaurio terópodo celofísido, que vivió a finales del período Triásico, hace aproximadamente entre 210 a 202 millones de años desde el Noriense al Rhaetiense, en lo que es hoy Sudamérica.",
+      },
+      {
+        p: "Al igual que con otros neotrópodos, las vértebras cervicales de Lucianovenator poseen un complejo sistema de fosas y láminas o crestas que conectan el cuerpo o centro de cada vértebra, las placas articulares frontales y posteriores, llamadas precigapofísis y postcigapofísis respectivamente y las facetas de las costillas en superior e inferior, diáfisis y pleurafófisis entre sí. Aunque las vertrebras cervicales de Lucianovenator poseen muchas fosas, se pueden usar cuatro ejemplos particulares de fosas emparejadas, cuatro a cada lado de las vértebras, para distinguirlo de otros neoterópodos.",
+      },
+      {
+        p: "El primero de ellos es un hoyo profundo ubicado directamente en la base de cada prezigapófisis y el segundo es un hoyo más grande ubicado inmediatamente detrás de él. Estos dos hoyos están oscurecidos por una cresta conocida como lámina centrodiapofisaria prezigapofisaria, que conecta cada precigapófisis con cada diapófisis, y cada diapófisis con la parte posterior del centro. Una tercera fosa se encuentra en la parte posterior de la vértebra. También está oscurecida por el costado, esta vez por la lámina centropostzigapofiseal que conecta cada poscigófisis con la parte posterior del centro. Cada una de las terceras fosas se conecta a un par de grandes cavidades internas que se encuentran adyacentes al canal para la médula espinal. Esta combinación de características es exclusiva de Lucianovenator ya que ningún otro celofísidos posee todas estas características a la vez. El primer y el tercer par de fosas son similares a los de (Syntarsus) kayentakatae, pero el segundo par no lo es. El tercer par se conecta a las cavidades internas en Coelophysis bauri, pero también lo hace el primer par, a diferencia del caso de Lucianovenator. Otro de los rasgos distintivos de Lucianovenator es que las costillas cervicales anteriores son muy largas, más de cinco veces más que los centros cervicales.",
+      },
+      {
+        p: "El cuarto par diagnóstico de fosas cervicales en Lucianovenator es también la única autapomorfia, o rasgo distintivo único, del género. Lucianovenator es único en el hecho de que el borde de cada lámina centrodiapofisaria, que conecta cada diapófisis al centro, adquiere un hoyo largo y profundo, que se vuelve progresivamente más largo y más profundo hacia la base del cuello. En la vértebra cervical 9, el hoyo tiene casi toda la longitud de la lámina centrodiapofisaria, y es tan profundo que no es completamente visible desde un lado.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "El espécimen holotipo, PVSJ 906, de Lucianovenator bonoi fue hallado en la localidad (Quebrada del Puma) en la Formación Quebrada del Barro en Argentina, descubierta en el año 2014 por el paleontólogo de la Universidad Nacional de San Juan Ricardo N. Martínez y su equipo. La edad de la Formación Quebrada del Barro se estima que data de las épocas del Noriense al Rhaetiense, hace aproximadamente 210 a 202 millones de años. PVSJ 906 se compone de una secuencia vertebral articulada desde la tercera vértebra cervical hasta la cuarta vértebra dorsal, así como el sacro y una pelvis parcial. Adicionalmente, fueron referidos tres especímenes más a Lucianovenator. Estos incluyen a PVSJ 899, (un sacro y una pelvis parcial, PVSJ 1013, un sacro y PVSJ 1084, un sacro y pelvis parcial. PVSJ 1004, el extremo proximal de una tibia derecha, puede pertenecer también a este género.",
+      },
+      {
+        p: "El nombre del género, Lucianovenator se traduce como (cazador de Luciano), en referencia a don Luciano Leyes, quien fue el primero en reportar los restos. El nombre de la especie, bonoi se refiere a Tulio del Bono, una autoridad científica local quien colaboró en la investigación de los descriptores. Es uno de los pocos neoterópodos conocidos de América del Sur.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: null,
+  },
+
+  {
+    id: "Carnivoro-Llukalkan",
+    namedino: "Llukalkan aliocranianus",
+    tipo: "Carnívoro",
+    era: "Cretácico Tardío",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "5 metros",
+      altura: "1,9 metros",
+      peso: "1 toneladas",
+      autor: "Federico A. Gianechini y colaboradores",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Theropoda",
+      familia: "Abelisauridae",
+      genero: "Llukalkan",
+      especies: "Llukalkan aliocranianus",
+    },
+    info: [
+      {
+        p: "Llukalkan aliocranianus (arn. 'alguien que provoca terror' y lt. 'cráneo diferente o extraño') es la única especie conocida del género extinto Llukalkan de dinosaurio terópodo abelisáurido, que vivió a finales del período Cretácico, durante el Santoniense, hace aproximadamente entre 86,3 a 83,6 millones de años, en lo que es hoy Sudamérica. El holotipo fue descubierto en la Formación Bajo de la Carpa de Argentina.",
+      },
+      {
+        p: "Llukalkan es un género con una morfología bastante similar a Viavenator, excepto que era más pequeño, poseía un lagrimal en forma de T con una rama yugal que carecía de proceso suborbitario, y grandes orificios para la inserción de las venas cerebrales medias caudales, entre otras características craneales que lo diferenciaban de Viavenator.",
+      },
+      {
+        p: "Al principio se dudaba de la validez de Llukalkan, ya que su holotipo fue hallado en la misma zona y data de la misma época que los restos de Viavenator. Y como indica la forma del lagrimal, los restos del holotipo de L. aliocranianus deben pertenecer a un espécimen subadulto, por lo que si estas fueran las únicas diferencias craneales entre estos dos géneros, podría explicarse que son diferentes por su distinta edad biológica, y que podrían ser el mismo taxón. Pero Llukalkan tenía una característica única entre los abelisáuridos, la presencia de un hueco posterior lleno de aire en la zona del oído medio, llamado receso timpánico caudal. Esta característica fue la definitiva para determinar que los restos de Llukalkan eran de un nuevo género, y no pertenecientes a un ejemplar juvenil de Viavenator, ya que este último no poseía el receso timpánico caudal.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "El holotipo de L. aliocranianus (MAU-Pv-LI-581) consiste en un cráneo incompleto encontrado en la Formación Bajo de la Carpa, por la zona de La Invernada, en la provincia de Neuquén, Argentina, a solo 700 metros de los restos de V. exxoni. El cráneo, aunque incompleto, se encontraba parcialmente articulado, y con una cavidad craneana completa, que permitió el estudio de su neuroanatomía. Se describió y nombró como nuevo género en 2021.",
+      },
+    ],
+    paleobiologia: [
+      {
+        p: "Por la inusual morfología de su oído, se teoriza que Llukalkan tenía un sentido auditivo mucho más agudo y desarrollado que los demás abelisáuridos.",
+      },
+    ],
+    paleoecologia: null,
+  },
+
+  {
+    id: "Herbivoro-Laplatasaurus",
+    namedino: "Laplatasaurus araukanicus",
+    tipo: "Herbívoro",
+    era: "Cretácico Tardío",
+    idEra: "Cretácico",
+    caracteristicas: {
+      longitud: "18 metros",
+      altura: "4 metros",
+      peso: "8 toneladas",
+      autor: "Von Huene",
+    },
+    taxonomia: {
+      filo: "Chordata",
+      clase: "Sauropsida",
+      orden: "Saurischia",
+      suborden: "Sauropodomorpha",
+      familia: "Titanosauria",
+      genero: "Laplatasaurus",
+      especies: "L. araukanicus",
+    },
+    info: [
+      {
+        p: "Laplatasaurus araukanicus es la única especie conocida del género extinto Laplatasaurus es un género de dinosaurio saurópodo titanosauriano, que vivió a finales del período Cretácico, hace aproximadamente entre 75 millones de años, en el Campaniense, en lo que hoy es Sudamérica.",
+      },
+      {
+        p: "Huene asignó esos fósiles a Laplatasaurus que parecía indicar un saurópodo bastante grande pero al mismo tiempo elegantemente construido. Laplatasaurus medía aproximadamente 18 metros de largo, teniendo un peso estimado de 30 toneladas. La tibia y la fíbula son características, siendo gráciles y delgadas rasgos que los distinguen claramente de los de Titanosaurus y parcialmente de Antarctosaurus. Estos son un 50 por ciento más grande que las de Saltasaurus. Sin embargo, el peroné de Laplatasaurus es absolutamente distinto del de Antarctosaurus en el proceso anterolateral, como fue descrito por Huene, formado por dos cantos con rugosidades óseas distintas, mientras que el de Antarctosaurus tiene solamente un canto formado por dos rugosidades óseas. El omóplato de Laplatasaurus es claramente diferente al de Titanosaurus, y en menor grado al de Antarctosaurus. El húmero, con su extremo distal poco ampliado, es visiblemente distinto al de Titanosaurus, Antarctosaurus y de Argyrosaurus.La importancia de los especímenes es que representa el primer informe de la armadura en un saurópodo. Los osteodermos que forman un revestimiento blindado en la parte posterior se han referido a Laplatasaurus, pero la asociación es incierta. Estas placas tenían crestas mucho más pequeñas que las de Saltasaurus.",
+      },
+    ],
+    descubrimiento: [
+      {
+        p: "El género fue nombrado en 1927 por Friedrich von Huene, pero sin una descripción, por lo que siguió siendo un nomen nudum. Este género fue descrito por Friedrich von Huene en 1929. No se encontró ningún material del cráneo, sólo dos vértebras presacrales y veinte caudales, diez de ellas articuladas, material de los miembros y de la cintura escapular, así como un poco de material juvenil para ir con los miembros. El nombre genérico se refiere a La Plata. El nombre específico se deriva de los araucanos o mapuche. Por accidente, Huene en 1929 también mencionó un (Laplatasaurus wichmannianus), pero ese fue un lapsus calami para Antarctosaurus wichmannianus. Sin embargo, en 1933, él y Charles Alfred Matley cambiaron el nombre de Titanosaurus madagascariensis a Laplatasaurus madagascariensis.Esta última especie hoy se conoce comúnmente como el Titanosaurus original.",
+      },
+      {
+        p: "Según Huene, Laplatasaurus, se basó en material fragmentario encontrado en tres ubicaciones en Argentina, en estratos de la Formación Allen, que datan de la etapa de la fauna de Campaniense. Consistía en elementos de las extremidades, algunas vértebras dorsales y una serie de vértebras caudales. Richard Lydekker había remitido parte de los hallazgos a Titanosaurus australis. Huene nunca asignó un holotipo, J. F. Bonaparte y Zulma Gasparini en 1979 seleccionaron una tibia y un peroné como el tipo de L. araukanicus. Los ejemplares del MLP 26-306 una tibia derecha, C.S. 1128 y una fíbula derecha C.S. 1127 ilustrados por Huene fueron los elegidos. Las iniciales C.S. corresponden a Cinco Saltos, localidad de la Provincia del Río Negro, Patagonia Argentina, identificación con el que figuraba en el trabajo de Huene. Aparte de estos numerosos ejemplares fueron encontrados, en especial de la misma locación y en el Rancho de Ávila en Los Alamitos, Río Negro. Huene asignó a este material que Lydekker en 1893 había referido a Titanosaurus australis, este pertenece al Grupo Neuquén. El material de Huene de Cinco Saltos, puede ser de la Formación Río Colorado o de la Formación Allen, ambas del Grupo Neuquén. También se encontró material en la vecina localidad de General Roca, en Los Alamitos y en el banco derecho del Río Neuquén todos perteneciente a la Formación Río Colorado. Siendo el último posiblemente del Miembro Bajo la Carpa de dicha formación. Además de material de la Formación Ascencio, Palmitas, Uruguay.",
+      },
+    ],
+    paleobiologia: null,
+    paleoecologia: null,
+  },
 ];
