@@ -23,7 +23,7 @@ export const NavBar = () => {
     <header>
       <button
         onClick={handleclose}
-        className={`${buttonnav} absolute z-20 top-2 left-2 hamburger hamburger--collapse-r `}
+        className={`${buttonnav} absolute z-20 top-0 left-0 hamburger hamburger--collapse-r bg-slate-700 rounded-br-3xl h-20 px-4`}
       >
         <span className="hamburger-box">
           <span className="hamburger-inner"></span>
@@ -31,16 +31,22 @@ export const NavBar = () => {
       </button>
 
       <nav
-        className={`${close}  pt-20 bg-slate-700 h-full text-white z-10 absolute shadow-black shadow-lg transition-transform duration-300 ease-in`}
+        className={`${close} pt-24 bg-slate-700 h-full text-white z-10 absolute shadow-black shadow-lg transition-transform duration-300 ease-in`}
       >
         <div className="grid grid-rows-3 flex-wrap w-min">
-          <Link className="text-center my-3" to="/">
-            <img src="/assets/img/logo/logo-white-v2.svg" className="w-full" />
-          </Link>
+          <img src="/assets/img/logo/logo-white-v2.svg" className="w-full" />
 
-          <NavButton to={"/quiensoy"} value={"¿Quien soy?"} />
+          <NavButton
+            to={"/quiensoy"}
+            value={"Home"}
+            close={handleclose}
+          />
 
-          <NavButton to={"/listdinos"} value={"Dinosaurios Argentinos"} />
+          <NavButton
+            to={"/listdinos"}
+            value={"Listado de dinosaurios"}
+            close={handleclose}
+          />
         </div>
       </nav>
     </header>
